@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Quick List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="src/images/logo.svg" alt="Logo" width="150px" height="150px">
+        </header>
+        <div class="container2">
+            <p><- Voltar</p>
+            <h1>Compras da Semana</h1>
+        </div>
+
+        <section class="addItem">
+            <input type="text" class="input" placeholder="Adicione um novo item" id="item">
+            <button id="adicionarItem" onclick="cadastrar()">Adicionar Item</button>
+        </section>
+        <ul id="lista"></ul>
+        <div id="popup" class="popup-oculto">
+            <p id="popup-texto">Digite o nome do produto</p>
+            <div class="popup-conteudo"></div>
+        </div>
+        <div id="mensagem" class="mensagem-oculta">
+            <span class="mensagem-icone">&#x2716;</span>
+            <span id="mensagem-texto">O item foi removido da lista</span>
+        </div>
+        </div>
+    </main>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
