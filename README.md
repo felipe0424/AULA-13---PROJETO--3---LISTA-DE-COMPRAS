@@ -1,7 +1,7 @@
 <body>
     <div align="center">
         <a href="https://felipe0424.github.io/projeto-assinatura/" target="_blank">
-        <img src="src/assets/images/Thumbnail.svg" alt="Projeto Página da Assinatura" width="auto">
+        <img src="src/images/Thumbnail.svg" alt="Projeto Lita de Compras" width="auto">
         </a>
     </div>
 </body>
