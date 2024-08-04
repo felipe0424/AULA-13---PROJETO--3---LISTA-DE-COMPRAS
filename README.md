@@ -1,6 +1,6 @@
 <body>
     <div align="center">
-        <a href="https://felipe0424.github.io/projeto-assinatura/" target="_blank">
+        <a href="https://felipe0424.github.io/lista-compras/" target="_blank">
         <img src="src/images/Thumbnail.svg" alt="Projeto Lita de Compras" width="auto">
         </a>
     </div>
